@@ -1,3 +1,5 @@
+from price import Price
+
 class Game():
   def _has_valid_name(self) -> bool:
     return isinstance(self._name, str) and (len(self._name.strip()) != 0) 
@@ -11,3 +13,8 @@ class Game():
   def __init__(self, name: str = None, id: int = None):
     self._name = name
     self._id = id
+    self._price = None
+
+  def set_price(self, price_str: str) -> Price:
+    self._price = Price(price_str)
+    return self._price
