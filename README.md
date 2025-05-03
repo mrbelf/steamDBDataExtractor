@@ -5,10 +5,10 @@ A simple solution for extracting data from SteamDB based on Selenium.
 ## Features
 
 - Get current price.
+- Get lowest price ever.
 
 ## Future Features
 
-- Get lowest price ever.
 - Get last discount.
 - Get max players in 24h.
 - Get max players ever.

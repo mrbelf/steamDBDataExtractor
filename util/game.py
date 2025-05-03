@@ -14,7 +14,12 @@ class Game():
     self._name = name
     self._id = id
     self._price = None
+    self._lowest_price = None
 
   def set_price(self, price_str: str) -> Price:
     self._price = Price(price_str)
     return self._price
+  
+  def set_lowest_price(self, price_str: str) -> Price:
+    self._lowest_price = Price(price_str)
+    return self._lowest_price
