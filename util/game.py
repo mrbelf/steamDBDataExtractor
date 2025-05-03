@@ -1,4 +1,4 @@
-from price import Price
+from .price import Price
 
 class Game():
   def _has_valid_name(self) -> bool:
