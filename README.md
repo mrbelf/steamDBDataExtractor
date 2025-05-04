@@ -14,3 +14,8 @@ A simple solution for extracting data from SteamDB based on Selenium.
 - Get max players ever.
 
 More features might be included in the future if needed.
+
+## Improvements
+
+- Implement a strategy pattern to collect multiple desired information
+  in the page with a single use of the drive.
